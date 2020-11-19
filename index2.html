@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link type='text/css' rel='stylesheet' href='style.css'/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+    <h1 id="title">Javascript Quiz</h1>
+</head>
+<body>
+    <div id="container2">
+        <div id="title">
+            <h1>Jawab Pertanyaan Dibawah Ini</h1>
+        </div>
+        <br>
+        <div id="quiz" style="display: block;"> 
+            <h2>Berapa nilai yang dihasilkan dari:</h2>
+            <p>let angka = [1,2,3,4,5]
+                <br>
+                for (let i = 0 ; i < angka.length ; i++)
+                <br>{
+                    console.log(angka[1])
+                }
+            </p>
+            <form >
+                <input type="radio" name="answer" id="salah">1<br>
+                <input type="radio" name="answer" id="benar">2 <br>
+                <input type="radio" name="answer" id="salah">3 <br>
+                <input type="radio" name="answer" id="salah">4 <br>
+                <input type="radio" name="answer" id="salah">5 <br>
+            </form>
+
+            <button onclick="check()">submit</button>
+        </div>
+    
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
